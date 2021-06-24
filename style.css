@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#game td{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+#principal{
+  position: absolute;
+  top: 20%;
+  height: 80%;
+  width: 100%;
+  background: rgb(136, 168, 136);
+}
+tbody{
+  position: absolute;
+  left: 39%;
+  width: 40%;
+  top: 20%;
+ 
+}
+
+.oponentes{
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#foto1{
+  position: absolute;
+  height: 20%;
+  padding-top: 1%;
+  background: black;
+  width: 20%;
+}
+#titulo{
+  position: absolute;
+  left:20% ;
+  height: 20%;
+  background: black;
+  width: 60%;
+}
+#foto2{
+  position: absolute;
+  height: 20%;
+  padding-top: 1%;
+  left: 80%;
+  background: black;
+  width: 20%;
+}
+#f2{
+  margin-left: 60%;
+}
+
+h1{
+  padding-left: 30%;
+  padding-top: 4%;
+  color:  rgb(136, 168, 136);
+  font-weight: bold;
+}
+form{
+  margin-left: 37%;
+  position: absolute;
+  top: 86%;
+ }
+
+ #game{
+   width: 100%;
+   height: 55%;
+ }
+ button{
+   border-radius: 15px  ;
+   padding: 5px;
+   background: transparent;
+ }
+ button:hover{
+   cursor: pointer;
+   background: whitesmoke;
+ }
+
+
+.esconder{
+  display: none; 
+}
+
+.mostrar{
+  display: flex;
+}
+
+.mostrarLabel{
+  display: inline-block;
+}
+
+#placar td{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#placar{
+   width: 85%;
+   height: 85%;
+   left:4% ;
+   position: absolute;
+}
+
+#rodada{
+  font-size:42px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 6%;
+  margin-left: 43%;
+}
+
+
+
+#clear{
+  position: absolute;
+  top: 93.9%;
+}
